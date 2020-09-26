@@ -12,7 +12,7 @@ const Create=({navigation})=>{
         screenOptions ={{
           headerStyle:{
             backgroundColor:"#6f1282",   
-            height:45,
+            height:55,
           },
           
           headerTitleAlign: 'center',

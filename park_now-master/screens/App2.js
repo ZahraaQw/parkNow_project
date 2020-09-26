@@ -11,6 +11,8 @@ import Timer from './ParkingTimer';
 import EditProfileScreen from './EditProfileScreen';
 import Park from './ParkCar';
 import Create from './CreateEdit';
+import FindPosition from './Find';
+import FindMyPosition from './FindMyPosition';
 const Drawer = createDrawerNavigator();
 const App2 =({navigation})=>{
     return(
@@ -26,9 +28,7 @@ const App2 =({navigation})=>{
         drawerStyle={
             {
              backgroundColor:"white",
-            // opacity:0.85,
-           //  borderTopRightRadius:180
-            
+         
             }
            
         }

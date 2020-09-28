@@ -11,23 +11,12 @@ import SignInScreen from './screens/SignInScreen';
 import ForgetPass from './screens/ForgetPassword';
 const Stack = createStackNavigator();
 const isThereUser=true;
+import Park from './screens/Park';
 
 const App=()=>{
 
   return(
-    <NavigationContainer >
-       {!isThereUser?(
-    <Stack.Navigator>
-     
-    <Stack.Screen name="Welcom" component={WelcomeScreen} /> 
-      <Stack.Screen name="Sing Up" component={Signup}   navigation="Sign In"/>
-    <Stack.Screen name="Sing In" component={SignInScreen } navigation={["Sign Up","Forget Password"]}  />
-    <Stack.Screen name="Forget Password" component={ForgetPass }  /> 
-    </Stack.Navigator>)
-      :
-    <App2 name="HomeStackScreen"/>
-      }
-  </NavigationContainer>
+   <Park/>
   );
 }
 export default App;

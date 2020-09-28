@@ -22,9 +22,7 @@ const App=()=>{
     <Stack.Screen name="Welcom" component={WelcomeScreen} /> 
       <Stack.Screen name="Sing Up" component={Signup}   navigation="Sign In"/>
     <Stack.Screen name="Sing In" component={SignInScreen } navigation={["Sign Up","Forget Password"]}  />
-    <Stack.Screen name="Forget Password" component={ForgetPass }  />
-
-      
+    <Stack.Screen name="Forget Password" component={ForgetPass }  /> 
     </Stack.Navigator>)
       :
     <App2 name="HomeStackScreen"/>

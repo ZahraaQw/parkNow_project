@@ -183,6 +183,11 @@ const EditProfileScreen = ({navigation}) => {
             ]}
           />
         </View>
+
+
+
+
+        
         <View style={styles.action}>
           <FontAwesome name="envelope-o" color={colors.text} size={20} />
           <TextInput
@@ -196,6 +201,9 @@ const EditProfileScreen = ({navigation}) => {
                 color: colors.text,
               },
             ]}
+
+
+
           />
         </View>
 

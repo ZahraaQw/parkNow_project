@@ -8,6 +8,8 @@ import {
   Platform,
   Dimensions
 } from 'react-native';
+
+
 import MapView,
 { PROVIDER_GOOGLE, Marker, Callout, Polyline, Circle }
   from 'react-native-maps';

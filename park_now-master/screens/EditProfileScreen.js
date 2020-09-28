@@ -196,6 +196,9 @@ const EditProfileScreen = ({navigation}) => {
                 color: colors.text,
               },
             ]}
+
+
+            
           />
         </View>
 
